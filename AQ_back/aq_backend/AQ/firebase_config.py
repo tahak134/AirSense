@@ -4,8 +4,8 @@ from firebase_admin import credentials, firestore, db
 # Initialize Firebase Admin SDK
 cred = credentials.Certificate(r'C:\Users\TahaK\Desktop\AQ Monitoring\AQ_back\secret_firebase.json')
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://airsense-1a319-default-rtdb.firebaseio.com/',
-    'storageBucket': 'airsense-1a319.appspot.com'
+    'databaseURL': '',
+    'storageBucket': ''
 })
 
 # Get Firestore client
