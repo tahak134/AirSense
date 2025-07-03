@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "airsense-1a319",
+    "airsense": "airsense-1a319"
+  },
+  "targets": {},
+  "etags": {}
+}
